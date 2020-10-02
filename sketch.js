@@ -8,6 +8,11 @@ var box1, box2, box3, box4, box5, box6, box7, box8, box9;
 var ground, ground2;
 var Ball, Chain;
 var backgroundImg;
+
+function preload(){
+backgroundImg.loadImage("sprites/bg.png");
+}
+
 function setup() {
   createCanvas(800,400);
   engine = Engine.create();
