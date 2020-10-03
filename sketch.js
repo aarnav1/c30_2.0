@@ -40,7 +40,7 @@ function setup() {
 
 function draw() {
   if(backgroundImg)
-  background("white");
+  background(backgroundImg);
 
   Engine.update(engine);
   
