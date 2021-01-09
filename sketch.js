@@ -10,7 +10,7 @@ var Ball, Chain;
 var backgroundImg;
 
 function preload(){
-backgroundImg.loadImage("sprites/bg.png");
+backgroundImg("sprites/bg.png");
 }
 
 function setup() {
